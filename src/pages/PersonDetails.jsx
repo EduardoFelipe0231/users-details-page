@@ -75,7 +75,7 @@ export default function PersonDetails(){
                             <h2 className="text-2xl font-bold">Company</h2>                    
                         </div>
                         <div className="w-full flex flex-col mt-2 ">
-                            <section className="flex flex-col bg-zinc-50 cursor-pointer rounded-sm py-5 border border-zinc-200 transition-all px-5">
+                            <section className="flex bg-zinc-50 cursor-pointer rounded-sm py-5 border border-zinc-200 transition-all px-5">
                                 <p><span className="font-bold">Name:</span> {details.company.name} - <span className="font-bold">Cargo:</span> {details.company.bs}</p>
                             </section>                        
                         </div>
@@ -84,7 +84,7 @@ export default function PersonDetails(){
 
                 <div className="flex items-center justify-center mt-20">
                     <Link to="/">
-                        <button className="bg-emerald-600 rounded-sm text-white px-6 py-3 text-2xl text-center cursor-pointer">Back home</button>
+                        <button className="bg-red-400 rounded-sm text-white px-6 py-3 text-2xl text-center cursor-pointer hover:bg-red-400/85 transition-all">Back home</button>
                     </Link>
                 </div>
             </div>

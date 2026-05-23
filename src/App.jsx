@@ -3,9 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import PersonDetails from './pages/PersonDetails'
 
-
 function App() {
-
   return (      
       <div className='min-h-screen bg-zinc-100'>
         <Navbar />
