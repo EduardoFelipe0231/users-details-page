@@ -22,8 +22,12 @@ const Navbar = () => {
                 </nav>
 
                 <div className="hidden gap-3 sm:flex text-lg">
-                    <button className="px-5 py-2 rounded  border text-white cursor-pointer hover:shadow-sm bg-zinc-700 hover:bg-zinc-700/85 transition-all">Sign Up</button>
-                    <button className="bg-red-400 px-5 py-2 rounded text-white cursor-pointer hover:bg-red-400/85 transition-all">Login</button>
+                    <Link to="/auth">
+                        <button className="px-5 py-2 rounded  border text-white cursor-pointer hover:shadow-sm bg-zinc-700 hover:bg-zinc-700/85 transition-all">Sign Up</button>
+                    </Link>
+                    <Link to="/auth">
+                        <button className="bg-red-400 px-5 py-2 rounded text-white cursor-pointer hover:bg-red-400/85 transition-all">Login</button>
+                    </Link>                    
                 </div>
 
                 <div className="md:hidden">

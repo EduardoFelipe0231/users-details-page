@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Error from './pages/Error404'
 import PersonDetails from './pages/PersonDetails'
+import Auth from './components/Auth'
 
 function App() {
   return (      
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path='/person/details/:id' element={<PersonDetails />}/>
+          <Route path='/Auth' element={<Auth/>} />
 
           <Route path='*' element={<Error/>} />
         </Routes>
