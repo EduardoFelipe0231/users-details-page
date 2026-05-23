@@ -64,7 +64,7 @@ export default function PersonDetails(){
                         <h2 className="text-2xl font-bold">Location</h2>                    
                     </div>
                     <div className="w-full flex flex-col mt-2 ">
-                        <section className="flex flex-col items-center text-center justify-center bg-zinc-50 cursor-pointer rounded-sm py-5 border border-zinc-200 transition-all px-3 md:px-5 text-lg  lg:flex-row gap-3">
+                        <section className="flex flex-col items-center text-center justify-center bg-zinc-50 cursor-pointer rounded-sm py-5 border border-zinc-200 transition-all px-3 md:px-5 text-lg  lg:flex-row gap-3 lg:justify-start">
                             <p>
                                 <span className="font-bold block md:inline-block">Street</span> {details.address.street} - {details.address.suite}, {details.address.city} 
                             </p>
