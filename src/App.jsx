@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
+import Error from './pages/Error404'
 import PersonDetails from './pages/PersonDetails'
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path='/person/details/:id' element={<PersonDetails />}/>
+
+          <Route path='*' element={<Error/>} />
         </Routes>
       </div>
   )

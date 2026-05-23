@@ -20,6 +20,9 @@ export default function PersonDetails(){
 
         setDetails(foundPerson)
 
+        return () => {
+            console.log("SAIU DO DETALHE...")
+        }
     }, [id]);
 
     if (!details){

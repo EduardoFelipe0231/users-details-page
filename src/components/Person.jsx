@@ -7,7 +7,7 @@ export default function Person( { pers } ){
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
                 <UserRound size={64} className="bg-zinc-400 shadow-sm rounded-full p-2 text-white" />
             </div>
-            <h2 className="text-2xl font-bold tracking-wide md:text-3xl">{pers.name}</h2>
+            <h2 className="text-2xl font-bold tracking-wide md:text-2xl">{pers.name}</h2>
             <Link className="bg-zinc-700 p-2 px-4 rounded-sm text-white cursor-pointer hover:bg-zinc-700/85 transition-all" to={`/person/details/${pers.id}`}>See more</Link>
         </div>
     )

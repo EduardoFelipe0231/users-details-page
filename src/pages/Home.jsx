@@ -3,6 +3,7 @@ import Person from "../components/Person";
 
 export default function Home(){
     const person = getPerson();
+    
     return (
         <div>
             <main className="container mx-auto pb-10">
